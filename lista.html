@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Minha Agenda 2020</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="container">
+      <div class="menu-lateral"> 
+        <div class="txt-menu-lateral">Minha Agenda 2020 </div>
+    <ul>
+        <li><a href="index.html"><i class="fas fa-home"></i> Início</a></li>
+        <li><a href="#listar"><i class="fas fa-list"></i> Lista de Contatos</a></li>
+        <li><a href="#adicionar"><i class="fa fa-plus"></i> Adicionar Contato</a></li>
+    </ul>
+</div> 
+     
+
+    <div class="conteudo"> 
+     <section id="listar">
+        <div class="titulo">Lista de Contatos</div>
+        <p>Aqui você adiciona, edita e gerencia todos os seus contatos!</p>
+
+              <table id="tabela">
+                <tr>
+                  <th> Nº</th>
+                  <th><i class="fas fa-user"></i> Nome</th>
+                  <th><i class="fas fa-envelope"></i> E-mail</th>
+                  <th><i class="fas fa-phone"></i> Telefone</th>
+                  <th><i class="fas fa-mouse-pointer"></i> Ações</th>
+                </tr>
+                <tbody id="listar">
+                </tbody>
+              </table>
+    </section>
+  
+        <section id="adicionar">
+            <div class="titulo">Adicionar Contato</div>
+                        <div class="formulario"> 
+                          <form id="form" class="form" action="">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" placeholder="Digite o nome" maxlength="30" required>
+
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" placeholder="Digite o e-mail" maxlength="30" required>
+
+                            <label for="telefone">Telefone (com DDD):</label>
+                            <input type="text" id="telefone" placeholder="Digite o telefone" maxlength="12" required onkeypress='return SomenteNumero(event)'>
+                          
+                            <button type="submit" class="botao" id="salvar"><i class="fas fa-plus"></i> Adicionar contato</a>
+                            <input type="hidden" name="id_numero" value="0" />
+                          </form> 
+              </div>
+        </section>
+      </div> 
+        <footer>
+          <p class="txt-footer">&copy;Minha Agenda 2020</p>
+        </footer>
+</div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/ddf447e518.js"></script>
+</body>
+</html>

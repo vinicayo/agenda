@@ -1,0 +1,186 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: auto;
+    margin: auto;
+}
+
+footer {
+    background-color: #156595;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: right;
+    overflow-x: visible;
+ }
+
+ .txt-footer {
+    padding: 3px;
+    color: white;
+    font-size: 12px;
+    text-align: right;
+    margin-right: 30px;
+ }
+
+.txt-menu-lateral {
+    border-bottom: 1px solid rgb(255, 255, 255, 0.5);
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+}
+
+.menu-lateral {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#ff6c01;
+    overflow-x: visible;
+    padding-top: 15px;  
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #ff6c01;
+  }
+
+  li a {
+    font-size: 15px;
+    display: block;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.5);
+    line-height: 15px;
+    text-transform: lowercase;
+  }
+
+  li a :hover{
+    color: #989898;
+  }
+
+  div.container {
+    background-color: #ffffff;
+    margin-bottom: 50px;;
+}
+
+
+div.conteudo {
+    font-size: 15px;
+    margin-left: 200px;
+    padding: 0px 10px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin-bottom: 20px;
+    
+  }
+  
+th {
+    border: 2px solid #0855a1;
+    text-align: left;
+    padding: 8px;
+    background-color: #0855a1;
+    color: #ffffff;
+    font-size: 13px;
+    
+  }
+
+  td {
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+div.titulo {
+    margin: 10px 0px 10px 0px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #00559f;
+    text-align: left;
+}
+
+.botao {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    
+  }
+
+  .botao-editar {
+    background-color: #008CBA;
+  }
+
+  .botao-ver {
+    background-color: #fcd003;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+
+
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+  }
+
+  label {
+    font : 5 "typewriter", sans-serif;
+    font-weight: bold;
+    color: #727272;
+  }
+
+  #adicionar {
+    height: auto;
+    background-color: #dddddd;
+    max-width: 420px;
+    display: inline-table;
+    
+  }
+
+  #listar {
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+ 
+
+ 
